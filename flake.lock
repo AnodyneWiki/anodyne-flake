@@ -44,11 +44,11 @@
     "anodyne-frontend": {
       "flake": false,
       "locked": {
-        "lastModified": 1794738289,
-        "narHash": "sha256-tr56U2gnPrRPh+KuGW6SnTnnsq9Ej+k/nCUZZkoN/fU=",
+        "lastModified": 1794738986,
+        "narHash": "sha256-RxJdfYgRDS1w5F61bSxILiDMSGYBu6ZUj8ufLBYBCMY=",
         "owner": "AnodyneWiki",
         "repo": "anodyne-frontend",
-        "rev": "b030a55cddc09cfa2556ef5604f37998df18e084",
+        "rev": "1e678684a02dea072bfb5d85ef8c73a5d7a67232",
         "type": "github"
       },
       "original": {
