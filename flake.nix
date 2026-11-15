@@ -59,5 +59,4 @@
         _module.args.anodyneInputs = inputs;
       };
     };
-
 }
