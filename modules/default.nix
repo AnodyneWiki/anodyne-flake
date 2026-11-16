@@ -13,6 +13,8 @@ in
     ./pkgs
     ./api
     ./chrp
+    ./replicator-primary
+    ./replicator-secondary
   ];
   options.anodyne-wiki = {
     enable = lib.mkEnableOption "";
@@ -24,7 +26,7 @@ in
     };
     users.groups.anodyne = { };
 
-    systemd.tmpfiles.rules = [
+    systemd.tmpfiles.rules = lib.mkIf (!config.anodyne-wiki.replicator-secondary.enable) [
       "d /var/lib/anodyne 0755 anodyne anodyne -"
     ];
   };
