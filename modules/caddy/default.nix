@@ -48,6 +48,7 @@ in
       globalConfig = ''
         debug
         metrics
+        auto_https disable_redirects
         order rate_limit after basic_auth
         admin localhost:${toString cfg.adminPort}
         servers ${cfg.domain} {
