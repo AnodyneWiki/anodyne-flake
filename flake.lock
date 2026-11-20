@@ -44,11 +44,11 @@
     "anodyne-frontend": {
       "flake": false,
       "locked": {
-        "lastModified": 1794845332,
-        "narHash": "sha256-pRHQr8SxL+9MLKJeyT06uprZc7wiaPe52VKUf9qKamE=",
+        "lastModified": 1795169542,
+        "narHash": "sha256-lOD5J3z2wFzJOWdfb/SWae+2NwXWsZg8lYUwizTE1a0=",
         "owner": "AnodyneWiki",
         "repo": "anodyne-frontend",
-        "rev": "84da849b53b6b515c2da8f74fec63e3ab05ece4b",
+        "rev": "cdfd2264953e1be6fa834d82a59a68e7851f103a",
         "type": "github"
       },
       "original": {
@@ -268,11 +268,11 @@
     },
     "nixpkgs_5": {
       "locked": {
-        "lastModified": 1794537146,
-        "narHash": "sha256-Wpz/7x/YWnDIBu7yj6ixe8j6fIMsidd9Y+o1PqPF3iM=",
+        "lastModified": 1795085501,
+        "narHash": "sha256-S5keGWzaKpuXo9MNoIC2FfTIuTyTnx8P4NhYJMEsTLI=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "d5cc6833999746cffdfe0598f7bc801a57b887a9",
+        "rev": "0bb8272318b4ca41bf0edc6224df3e3e3046b70d",
         "type": "github"
       },
       "original": {
@@ -376,11 +376,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1791885023,
-        "narHash": "sha256-C3alQ2MEt0zVrUSho5NUDo3jmhbff72++bfwoqT9Omo=",
+        "lastModified": 1795017206,
+        "narHash": "sha256-WSBJcYjPRxGetDNxVzKnRPs1TQasQQlAC25W/S4W6YE=",
         "owner": "numtide",
         "repo": "treefmt-nix",
-        "rev": "0d6d739a833ba9a9c93034862e4a7b061a062a1c",
+        "rev": "0ba5d67225c3f5c88eb134e1a665a379bfd3bea9",
         "type": "github"
       },
       "original": {
