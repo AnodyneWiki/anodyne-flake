@@ -40,15 +40,15 @@ in
         User = "anodyne";
         Group = "anodyne";
         Type = "oneshot";
-        script = ''
+      };
+      script = ''
           ${pkgs.sqlite}/bin/sqlite3 /var/lib/anodyne/db.sqlite ".backup /var/lib/anodyne/.snapshot/db.sqlite"
           ${pkgs.rsync}/bin/rsync --archive --delete --delay-updates --compress --timeout=60 \
             --chmod=Dg+rwx,Fg+rw \
             --rsh="ssh -i ${cfg.sshKey} -o BatchMode=yes -o StrictHostKeyChecking=no" \
             /var/lib/anodyne/.snapshot/db.sqlite /var/lib/anodyne/frontend \
             anodyne-replicator@${cfg.target}:./
-        '';
-      };
+      '';
     };
   };
 }
