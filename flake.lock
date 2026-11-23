@@ -7,11 +7,11 @@
         "systems": "systems"
       },
       "locked": {
-        "lastModified": 1795382740,
-        "narHash": "sha256-BADkPllaKRvRj9Ivvx2tnKlzMZ5SeoY3kCRmUJV+y2I=",
+        "lastModified": 1795436936,
+        "narHash": "sha256-badVsgsfr3ZsZhcIfasR0a9ZvUdtumoiRC+TIiwBtl4=",
         "owner": "pilz0",
         "repo": "anodyne-api",
-        "rev": "fd3dd180119baa1a8802e9e3db28049aab306c0a",
+        "rev": "ea1e8275cee9b80e417de8ac5eba69ab6ae7590e",
         "type": "github"
       },
       "original": {
@@ -27,11 +27,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1795382638,
-        "narHash": "sha256-DGgjARsvj6vhhlopgMSmzKKcYdmLO4EuD51OQ4+FQ/k=",
+        "lastModified": 1795436519,
+        "narHash": "sha256-ZgeE77rDbL8km4e/Jh/gXL9YFpnwy0++Wg7PMJu73V4=",
         "owner": "pilz0",
         "repo": "anodyne-chrp",
-        "rev": "2df4bb4e2098f6587fff7ab49aa1e06228391d41",
+        "rev": "1ce0ce454288445626bf6cdb7b7822f8e30f7938",
         "type": "github"
       },
       "original": {
