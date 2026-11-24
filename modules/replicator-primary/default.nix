@@ -47,7 +47,7 @@ in
             --chmod=Dg+rwx,Fg+rw \
             --rsh="ssh -i ${cfg.sshKey} -o BatchMode=yes -o StrictHostKeyChecking=no" \
             /var/lib/anodyne/.snapshot/db.sqlite /var/lib/anodyne/frontend \
-            anodyne-replicator@${cfg.target}:./
+            anodyne-replicator@${cfg.target}:.
       '';
     };
   };
