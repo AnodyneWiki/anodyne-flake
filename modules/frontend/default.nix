@@ -35,7 +35,8 @@ in
     };
   };
 
-  config = lib.mkIf config.anodyne-wiki.frontend.enable {
+  # on the secondary the frontend is replicated from the primary instead
+  config = lib.mkIf (cfg.enable && !config.anodyne-wiki.replicator-secondary.enable) {
     systemd.services.anodyne-frontend-sync = {
       description = "copy the anodyne frontend to a writable directory";
       wantedBy = [ "multi-user.target" ];
