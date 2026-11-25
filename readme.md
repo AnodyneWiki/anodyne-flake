@@ -59,7 +59,7 @@ Installs the anodyne tools into the system packages (`anodyne-wiki.pkgs.enable =
 ## Example setup
 Add this to your flake.nix
 ```nix
-inputs.anodyne-flake.url = "github:pilz0/anodyne-flake";
+inputs.anodyne-flake.url = "github:AnodyneWiki/anodyne-flake";
 ```
 * Add this to your host config
 this also set up automatic https
