@@ -3,13 +3,13 @@
   anodyneInputs,
   lib,
   config,
-  anodyneInputs,
   ...
 }:
 let
   cfg = config.anodyne-wiki.frontend;
   chrpEnabled = config.anodyne-wiki.chrp.enable;
   stateRoot = "/var/lib/anodyne/frontend";
+  system = pkgs.stdenv.hostPlatform.system;
 in
 {
   options.anodyne-wiki.frontend = {
