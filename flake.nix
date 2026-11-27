@@ -10,7 +10,6 @@
     anodyne-api.url = "github:pilz0/anodyne-api/add-nix-flake";
     anodyne-chrp.url = "github:pilz0/anodyne-chrp/add-nix-flake";
     anodyne-frontend.url = "github:AnodyneWiki/anodyne-frontend/add-substances-4-10-2026";
-    anodyne-frontend.flake = false;
     systems.url = "github:nix-systems/triplet";
     flake-utils.inputs.systems.follows = "systems";
   };
@@ -37,11 +36,8 @@
             anodyne-api.packages.${system}.default
             anodyne-chrp.packages.${system}.default
             anodyne-molpic.packages.${system}.default
+            anodyne-frontend.packages.${system}.default
           ];
-        };
-
-        packages.anodyne-frontend = pkgs.callPackage ./modules/frontend/package.nix {
-          src = anodyne-frontend;
         };
 
         formatter =

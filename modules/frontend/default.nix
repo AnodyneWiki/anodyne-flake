@@ -3,6 +3,7 @@
   anodyneInputs,
   lib,
   config,
+  anodyneInputs,
   ...
 }:
 let
@@ -15,7 +16,7 @@ in
     enable = lib.mkEnableOption "";
     package = lib.mkOption {
       type = lib.types.package;
-      default = pkgs.callPackage ./package.nix { src = anodyneInputs.anodyne-frontend; };
+      default = anodyneInputs.anodyne-frontend.packages.${system}.default;
     };
     root = lib.mkOption {
       type = lib.types.str;
